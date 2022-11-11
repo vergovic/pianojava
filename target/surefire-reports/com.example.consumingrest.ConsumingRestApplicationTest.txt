@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.example.consumingrest.ConsumingRestApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.584 s <<< FAILURE! - in com.example.consumingrest.ConsumingRestApplicationTest
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: java.lang.ClassCastException: class java.util.LinkedHashMap cannot be cast to class com.example.consumingrest.User (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; com.example.consumingrest.User is in unnamed module of loader 'app')
+
